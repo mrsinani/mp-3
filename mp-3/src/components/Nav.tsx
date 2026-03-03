@@ -44,7 +44,7 @@ export default function Nav() {
                 <StyledListItem><StyledLink to="/education.html">Education</StyledLink></StyledListItem>
                 <StyledListItem><StyledLink to="/experiences.html">Experiences</StyledLink></StyledListItem>
                 <StyledListItem><StyledLink to="/skills.html">Skills</StyledLink></StyledListItem>
-                {/* <StyledListItem><StyledLink to="/projects.html">Projects</StyledLink></StyledListItem> */}
+                <StyledListItem><StyledLink to="/projects.html">Projects</StyledLink></StyledListItem>
                 <StyledListItem><StyledLink to="/contact.html">Contact</StyledLink></StyledListItem>
             </StyledList>
         </StyledNav>

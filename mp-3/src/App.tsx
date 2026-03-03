@@ -6,7 +6,7 @@ import Home from "./components/mains/Home";
 import Education from "./components/mains/Education";
 import Experiences from "./components/mains/Experiences";
 import Skills from "./components/mains/Skills";
-// import Projects from "./components/mains/Projects";
+import Projects from "./components/mains/Projects";
 import Contact from "./components/mains/Contact";
 import styled from "styled-components";
 
@@ -37,7 +37,7 @@ function Root() {
                     <Route path="education.html" element={<Education />} />
                     <Route path="experiences.html" element={<Experiences />} />
                     <Route path="skills.html" element={<Skills />} />
-                    {/* <Route path="projects.html" element={<Projects />} /> */}
+                    <Route path="projects.html" element={<Projects />} />
                     <Route path="contact.html" element={<Contact />} />
                 </Routes>
             </StyledContainer>
